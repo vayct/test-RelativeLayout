@@ -1,41 +1,65 @@
-<LinearLayout
+<RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation = "vertical"
-        android:background="@android:color/holo_orange_light">
+        android:orientation = "vertical">
 
 
 
 
         <TextView
             android:text="Guest List"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
             android:textSize="24sp"
-            android:background="#ff22aa"/>
+            />
 
         <TextView
-
-            android:text="Parent"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textSize="24sp"
-            android:background="#11c488"/>
+            android:text="Boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
 
         <TextView
-            android:text="Child"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textSize="24sp"
-            android:background="#fcf45c"/>
+            android:text="Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="TopLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="TopRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
 
 
 
-</LinearLayout>
+</RelativeLayout>
 
 
 
